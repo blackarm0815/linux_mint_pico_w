@@ -1,9 +1,8 @@
-cd
-
 # install dependencies
 sudo apt install -y build-essential cmake gcc-arm-none-eabi git libnewlib-arm-none-eabi 
 
 # create the code folder
+cd
 mkdir code
 cd code
 

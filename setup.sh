@@ -1,9 +1,9 @@
 # install dependencies
-sudo apt install -y build-essential cmake gcc-arm-none-eabi git libnewlib-arm-none-eabi 
+sudo apt install -y build-essential cmake gcc-arm-none-eabi git libnewlib-arm-none-eabi
 
 # create the code folder
 cd
-mkdir code
+mkdir -p code
 cd code
 
 # clone the sdk
@@ -18,7 +18,7 @@ cd ..
 git clone https://github.com/raspberrypi/pico-examples.git
 
 # create the build
-cd ../pico-examples
+cd pico-examples
 mkdir build
 cd build
 export PICO_SDK_PATH=../../pico-sdk/

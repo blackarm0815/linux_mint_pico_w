@@ -13,5 +13,7 @@ export PICO_SDK_PATH=../../pico-sdk/
 cmake -DPICO_BOARD=pico_w ..
 cd pico_w/wifi/blink
 make
-pwd
-ls
+cp picow_blink.uf2 ~
+echo
+ls -1
+echo
